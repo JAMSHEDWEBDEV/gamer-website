@@ -129,6 +129,28 @@
         margin-top: 50px;
     }
     /* play instant part responsive end  */
+    /* our game part responsive start  */
+    .our_game_container{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        column-gap: 5px;
+        margin: 50px 0;
+        padding: 0 20px;
+        margin-left: 45px;
+    }
+    .our_game_box{
+        height: 50px;
+        width: 110px;
+        padding: 5px;
+    }
+    .our_game_box img{
+        width: 100%;
+        height: 100%;
+    }
+    .our_game_box h1{
+        font-size: 0.5rem;
+    }
+    /* our game part responsive end  */
 }
                                 /* mobile device responsive end  */
 

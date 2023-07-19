@@ -315,3 +315,25 @@ nav {
 }
 
 /* play instant part css end  */
+
+/* our game part css start  */
+.our_game_container{
+    max-width: 1440px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.our_game_box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 100px;
+    width: 250px;
+}
+.our_game_box h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* our game part css end  */
