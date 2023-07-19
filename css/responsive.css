@@ -84,6 +84,51 @@
     }
 
     /* about gamer part responsive end  */
+    /* online game part responsive start  */
+    .online_game_content h1{
+        font-size: 1.5rem;
+    }
+    .online_game_content p{
+        font-size: 0.7rem;
+    }
+    .online_game_boxs{
+        flex-direction: column;
+    }
+    .game_box{
+        padding: 15px;
+        margin-left: 10px;
+    }
+    /* online game part responsive end  */
+    /* play instant part responsive start  */
+    .play_instant{
+        flex-direction: column;
+    }
+    .play_instant_content{
+        width: 100%;
+    }
+    .play_instant_content h1 {
+        font-size: 2rem;
+    }
+    .play_instant_content p {
+        font-size: 1rem;
+        padding: 0 25px;
+    }
+    .play_instant_image{
+        width: 100%;
+
+    }
+    .play_instant_image img {
+        height: 400px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .play_small_img img{
+        height: 150px;
+        width: 100px;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    /* play instant part responsive end  */
 }
                                 /* mobile device responsive end  */
 
@@ -143,5 +188,42 @@
         font-size: 1rem;
     }
     /* about gamer part responsive end  */
+    /* online game part responsive start  */
+    .online_game_content h1{
+        font-size: 3rem;
+    }
+    .online_game_content p{
+        font-size: 1.5rem;
+    }
+    .online_game_boxs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .game_box{
+        height: 800px;
+        width: 600px;
+    }
+    .game_box h3{
+        font-size: 1.5rem;
+    }
+    /* online game part responsive end  */
+    /* play instant part responsive start  */
+    .play_instant{
+        flex-direction: column;
+    }
+    .play_instant_content{
+        width: 100%;
+    }
+    .play_instant_image{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .play_small_img img{
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    /* play instant part responsive end  */
 }
                               /* tablet device responsive end  */
