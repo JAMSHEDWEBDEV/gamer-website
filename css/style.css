@@ -1,8 +1,5 @@
 /* google font link start   */
-* {
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-}
-
 /* google font link end   */
 * {
     font-family: 'Work Sans', sans-serif;
@@ -205,3 +202,48 @@ nav {
     font-weight: 700;
 }
 /* about gamer part css end  */
+/* online game part css start  */
+.online_game{
+    max-width: 1440px;
+    margin: 100px auto;
+}
+.online_game_content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.online_game_content h1{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.online_game_content .funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online_game_content p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.online_game_boxs{
+    display: flex;
+    gap: 20px;
+}
+.game_box{
+    height: 510px;
+    width: 380px;
+    border-radius: 10px;
+}
+.game_box img{
+    width: 100%;
+}
+.game_box h3{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+/* online game part css end  */
