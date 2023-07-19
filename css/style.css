@@ -337,3 +337,59 @@ nav {
     font-weight: 600;
 }
 /* our game part css end  */
+/* footer  part css start  */
+
+.footer{
+    background: #0B0223;
+    padding: 100px 0;
+}
+.footer_container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer_logo{
+    justify-content: center;
+}
+.footer_logo h1{
+    color: #FFF;
+}
+.footer_items ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+.footer_items ul li{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+}
+.footer_icon ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+.footer_icon ul li{
+    color: #FFF;
+    font-size: 30px;
+}
+.footer_conditions ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+.footer_conditions ul li{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer_copy p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+/* footer  part css end  */

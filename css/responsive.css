@@ -151,6 +151,46 @@
         font-size: 0.5rem;
     }
     /* our game part responsive end  */
+
+    /* footer part responsive start  */
+    .footer_items ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        padding: 0 30px;
+    }
+    .footer_items ul li{
+        font-size: 0.8rem;
+    }
+    .footer_icon ul{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        gap: 20px;
+        padding: 0  50px;
+        justify-content: center;
+    }
+    .footer_icon ul li{
+        font-size: 1.2rem;
+    }
+    .footer_conditions ul{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        padding: 0 50px;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .footer_conditions ul li{
+        font-size: 0.7rem;
+    }
+    .footer_copy{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer_copy p{
+        font-size: 0.82rem;
+    }
+
+    /* footer part responsive end  */
 }
                                 /* mobile device responsive end  */
 
@@ -247,5 +287,14 @@
         margin-top: 20px;
     }
     /* play instant part responsive end  */
+    /* footer part responsive start  */
+    .footer_items ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        padding: 0 50px;
+        margin: 30px;
+    }   
+    /* footer part responsive end  */
 }
                               /* tablet device responsive end  */
