@@ -249,17 +249,55 @@ nav {
     display: flex;
     gap: 20px;
 }
-
 .game_box {
-    height: 510px;
+    height: 470px;
     width: 380px;
     border-radius: 10px;
+    position: relative;
 }
+.image_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 65px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.overlay_content{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    text-align: center;
+}
+.overlay_content i{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+.overlay_content p{
+    font-size: 1.3rem;
+    color: red;
+    font-weight: 700;
+    margin: 10px;
+    margin-left: -20px;
 
+}
+.game_box:hover .image_overlay{
+    opacity: 0.7;
+}
 .game_box img {
     width: 100%;
 }
-
 .game_box h3 {
     color: #534C64;
     font-size: 1.25rem;
@@ -370,9 +408,13 @@ nav {
     gap: 40px;
     margin: 20px 0;
 }
-.footer_icon ul li{
+.footer_icon ul li a{
     color: #FFF;
     font-size: 30px;
+}
+.footer_icon ul li a:hover{
+    color: blue;
+    transition: .4s ease-in-out;
 }
 .footer_conditions ul{
     display: flex;
