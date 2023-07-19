@@ -214,6 +214,7 @@ nav {
 }
 
 /* about gamer part css end  */
+
 /* online game part css start  */
 .online_game {
     max-width: 1440px;
@@ -249,13 +250,15 @@ nav {
     display: flex;
     gap: 20px;
 }
+
 .game_box {
     height: 470px;
     width: 380px;
     border-radius: 10px;
     position: relative;
 }
-.image_overlay{
+
+.image_overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -267,13 +270,15 @@ nav {
     cursor: pointer;
     border-radius: 20px;
 }
-.overlay_content{
+
+.overlay_content {
     position: absolute;
-    top:40%;
+    top: 40%;
     left: 40%;
     text-align: center;
 }
-.overlay_content i{
+
+.overlay_content i {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -284,20 +289,21 @@ nav {
     font-size: 2rem;
     color: white;
 }
-.overlay_content p{
+.overlay_content p {
     font-size: 1.3rem;
     color: red;
     font-weight: 700;
     margin: 10px;
     margin-left: -20px;
-
 }
-.game_box:hover .image_overlay{
+.game_box:hover .image_overlay {
     opacity: 0.7;
 }
+
 .game_box img {
     width: 100%;
 }
+
 .game_box h3 {
     color: #534C64;
     font-size: 1.25rem;
@@ -341,21 +347,23 @@ nav {
 .play_instant_image {
     width: 50%;
 }
-.play_small_img{
+
+.play_small_img {
     height: 100px;
     width: 200px;
     position: relative;
     top: -160px;
     left: -90px;
 }
-.play_small_img img{
+
+.play_small_img img {
     width: 100%;
 }
 
 /* play instant part css end  */
 
 /* our game part css start  */
-.our_game_container{
+.our_game_container {
     max-width: 1440px;
     margin: 100px auto;
     display: flex;
@@ -363,75 +371,102 @@ nav {
     gap: 20px;
     justify-content: center;
 }
-.our_game_box{
+
+.our_game_box {
     display: flex;
     align-items: center;
     gap: 15px;
     height: 100px;
     width: 250px;
+    border: 1px solid transparent;
+    padding: 5px 5px;
 }
-.our_game_box h1{
+
+.our_game_box:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+    padding: 5px 5px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.our_game_box h1 {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 /* our game part css end  */
 /* footer  part css start  */
 
-.footer{
+.footer {
     background: #0B0223;
     padding: 100px 0;
 }
-.footer_container{
+
+.footer_container {
     max-width: 1440px;
     margin: 0 auto;
 }
-.footer_logo{
+
+.footer_logo {
     justify-content: center;
 }
-.footer_logo h1{
+
+.footer_logo h1 {
     color: #FFF;
 }
-.footer_items ul{
+
+.footer_items ul {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin: 20px 0;
 }
-.footer_items ul li{
+
+.footer_items ul li {
     font-size: 1.25rem;
     font-weight: 600;
     color: #FFF;
 }
-.footer_icon ul{
+
+.footer_icon ul {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin: 20px 0;
 }
-.footer_icon ul li a{
+
+.footer_icon ul li a {
     color: #FFF;
     font-size: 30px;
 }
-.footer_icon ul li a:hover{
+
+.footer_icon ul li a:hover {
     color: blue;
     transition: .4s ease-in-out;
 }
-.footer_conditions ul{
+
+.footer_conditions ul {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin: 20px 0;
 }
-.footer_conditions ul li{
+
+.footer_conditions ul li {
     color: rgba(255, 255, 255, 0.60);
     font-size: 1rem;
     font-weight: 500;
 }
-.footer_copy p{
+
+.footer_copy p {
     color: rgba(255, 255, 255, 0.60);
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
     margin-top: 30px;
 }
+
 /* footer  part css end  */
